@@ -43,14 +43,14 @@ Requirements:
 Usage:
 -----
 
-usage: solution.py [-h] [-input_order INPUT_ORDER] [-input_barcode INPUT_BARCODE]
+    usage: solution.py [-h] [-input_order INPUT_ORDER] [-input_barcode INPUT_BARCODE]
 
-  optional arguments:
-    -h, --help            show this help message and exit
-    -input_order INPUT_ORDER
-                          Input order csv file path
-    -input_barcode INPUT_BARCODE
-                          Input barcode csv file path
+    optional arguments:
+      -h, --help            show this help message and exit
+      -input_order INPUT_ORDER
+                            Input order csv file path
+      -input_barcode INPUT_BARCODE
+                            Input barcode csv file path
 
 
                     
