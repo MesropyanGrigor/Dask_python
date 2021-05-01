@@ -1,12 +1,12 @@
 CSV files Parser:
 ----------------
 
-Read two input csv files and write into stdout, by following way:
-    customer_id, order_id1, [barcode1, barcode2, ...]
-    customer_id, order_id2, [barcode1, barcode2, ...]
+Read two input csv files and write into stdout, by following way:\
+    customer_id, order_id1, [barcode1, barcode2, ...]\
+    customer_id, order_id2, [barcode1, barcode2, ...]\
 
-columns(order.csv):  customer_id, order_id
-columns(barcodes.csv): order_id, barcode
+columns(order.csv):  customer_id, order_id\
+columns(barcodes.csv): order_id, barcode\
 
 ER Diagram:
 ----------
