@@ -46,6 +46,6 @@ if __name__ == "__main__":
     else:
         csv_reader = Reader('order_test.csv', 'barcode_test.csv', client=True)
         #csv_reader.validate()
-        #csv_reader.output()
+        csv_reader.output()
         #csv_reader.count_unused_barcodes()
         csv_reader.top5()

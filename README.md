@@ -1,3 +1,6 @@
+CSV files Parser:
+----------------
+
 Read two input csv files and write into stdout, by following way:
     customer_id, order_id1, [barcode1, barcode2, ...]
     customer_id, order_id2, [barcode1, barcode2, ...]
@@ -31,21 +34,23 @@ Constrains:
                 customer_id, amount_of_tickets
     4. Print the amount of unused barcodes (barcodes left).
 
-Requirements
+Requirements:
 ------------
-  bokeh>=0.13.0
-  "dask[distrubuted]"
+    dask
+    bokeh>=0.13.0
+    "dask[distrubuted]"
 
 Usage:
 -----
+
 usage: solution.py [-h] [-input_order INPUT_ORDER] [-input_barcode INPUT_BARCODE]
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -input_order INPUT_ORDER
-                        Input order csv file path
-  -input_barcode INPUT_BARCODE
-                        Input barcode csv file path
+  optional arguments:
+    -h, --help            show this help message and exit
+    -input_order INPUT_ORDER
+                          Input order csv file path
+    -input_barcode INPUT_BARCODE
+                          Input barcode csv file path
 
 
                     
