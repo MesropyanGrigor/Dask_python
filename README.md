@@ -33,8 +33,8 @@ Constrains:
 
 Requirements
 ------------
-bokeh>=0.13.0
-"dask[distrubuted]"
+  bokeh>=0.13.0
+  "dask[distrubuted]"
 
 Usage:
 -----
