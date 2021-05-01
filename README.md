@@ -2,11 +2,11 @@ CSV files Parser:
 ----------------
 
 Read two input csv files and write into stdout, by following way:\
-[tab]customer_id, order_id1, [barcode1, barcode2, ...]\
-[tab]customer_id, order_id2, [barcode1, barcode2, ...]
+&emsp;customer_id, order_id1, [barcode1, barcode2, ...]\
+&emsp;customer_id, order_id2, [barcode1, barcode2, ...]
 
-[tab]columns(order.csv):  customer_id, order_id\
-[tab]columns(barcodes.csv): order_id, barcode
+&emsp;columns(order.csv):  customer_id, order_id\
+&emsp;columns(barcodes.csv): order_id, barcode
 
 ER Diagram:
 ----------
