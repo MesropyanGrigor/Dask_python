@@ -10,7 +10,8 @@ ERROR:      order_id           barcode
 31    B-25610          Printers
 42    B-25616       Hankerchief
 43    B-25616       Hankerchief
-50    B-25621  Electronic Games
+50    B-25621               NaN
+51    B-25621               NaN
 54    B-25623             Stole
 56    B-25623             Stole
 71    B-25630             Stole
@@ -240,6 +241,9 @@ ERROR:      order_id           barcode
 1482  B-26097       Hankerchief
 ERROR: The following rows' barcode is NaN:
 ERROR:      order_id barcode
+47    B-25619     NaN
+48    B-25620     NaN
+49    B-25621     NaN
 1490  B-26098     NaN
 1498  B-26100     NaN
 1500     ggg1     NaN
