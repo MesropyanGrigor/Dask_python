@@ -6,12 +6,6 @@ Read two input csv files and write into stdout, by following way:
 columns(order.csv):  customer_id, order_id
 columns(barcodes.csv): order_id, barcode
 
-Bonus points:
-============
-
-    ●Model how you would store this in a SQL database (e.g. UML, data model with
-    relations and optionally indexes)
-
 Validation:
 ==========
 
