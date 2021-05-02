@@ -24,8 +24,14 @@ Constrains:
 
 Requirements
 ============
-bokeh>=0.13.0
-"dask[distrubuted]"
+    dask
+    bokeh>=0.13.0
+    "dask[distrubuted]"
+
+    OR
+
+    You can run the following command, it will include all packages:
+    CMD: pip install  "dask[distrubuted]"
 """
 
 import logging
