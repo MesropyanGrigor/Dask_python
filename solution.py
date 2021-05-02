@@ -66,7 +66,7 @@ class Parser:
 
     >>> csv_reader.validate()
 
-    >>> csv_reader.output() # print customer, order_id, [barcodes] "TODO update messsage"
+    >>> csv_reader.output() # print customer, order_id, [barcodes]
 
     >>> csv_reader.count_unused_barcodes() # Print unused barcodes number
 
