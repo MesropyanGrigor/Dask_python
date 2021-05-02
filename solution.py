@@ -95,7 +95,7 @@ class Parser:
         # It worked in my case under windows system
         if client:
             #client = Client("192.168.6.40:8786")# n_workders=2,  momory_limit='1GB')
-            client = Client( threads_per_worker=2, processes=False, n_workers=2)#, momory_limit='2GB')
+            client = Client(threads_per_worker=2, processes=False, n_workers=2)#, momory_limit='2GB')
             print(client)
 
     def __init__logging(self, file_name:str):
