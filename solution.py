@@ -24,8 +24,14 @@ Constrains:
 
 Requirements
 ============
-bokeh>=0.13.0
-"dask[distrubuted]"
+    dask
+    bokeh>=0.13.0
+    "dask[distrubuted]"
+
+    OR
+
+    You can run the following command, it will include all packages:
+    CMD: pip install  "dask[distrubuted]"
 """
 
 import logging
@@ -60,7 +66,11 @@ class Parser:
 
     >>> csv_reader.validate()
 
+<<<<<<< HEAD
     >>> csv_reader.output() # print customer, order_id, [barcodes] "TODO update message"
+=======
+    >>> csv_reader.output() # print customer, order_id, [barcodes]
+>>>>>>> 0a4308d00a0c8e2d66169023f42a8e40b22dfc17
 
     >>> csv_reader.count_unused_barcodes() # Print unused barcodes number
 
@@ -89,7 +99,7 @@ class Parser:
         # It worked in my case under windows system
         if client:
             #client = Client("192.168.6.40:8786")# n_workders=2,  momory_limit='1GB')
-            client = Client( threads_per_worker=2, processes=False, n_workers=2)#, momory_limit='2GB')
+            client = Client(threads_per_worker=2, processes=False, n_workers=2)#, momory_limit='2GB')
             print(client)
 
     def __init__logging(self, file_name:str):
